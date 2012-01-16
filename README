@@ -2,8 +2,10 @@ This is a mirror of http://www.vim.org/scripts/script.php?script_id=2555
 
 A colorful, dark color scheme, inspired by ir_black (http://blog.infinitered.com/entries/show/6) and twilight (vimscript #1677).
 
-Designed primarily for a graphical Vim, but includes support for 256, 88, 16, and 8 color terminals. On 16 or 8 color terminals, set the "black" color to a dark grey for best results.
+Designed primarily for a graphical Vim, but includes support for 256, 88, 16, and 8 color terminals. On a 16 or 8 color terminal, replace its colors with these for best results: https://raw.github.com/nanotech/jellybeans.vim/master/ansi-term-colors.txt
 
-Screenshots: Ruby (http://nanotech.nanotechcorp.net/downloads/jellybeans-ruby.png), PHP (http://nanotech.nanotechcorp.net/downloads/jellybeans-php.png).
+If you cant change your terminals colors, set g:jellybeans_use_lowcolor_black to zero in your .vimrc to render black text as grey.
 
-Feel free to fork at http://github.com/nanotech/jellybeans.vim
+Screenshots: http://nanotech.nanotechcorp.net/downloads/jellybeans-preview.png
+
+Feel free to fork at https://github.com/nanotech/jellybeans.vim GitHub will also generally have a more recent version than Vim.org.
